@@ -1,6 +1,6 @@
-# MASQA: Enhancing Software Quality
+# WALL: A Web Application for Automated Quality Assurance using Large Language Models
 
-**MASQA** is a web-based tool designed to help developers improve software quality by resolving code issues, revising them using Large Language Models (LLMs), and comparing code versions. This application integrates with SonarQube to fetch unresolved issues and uses advanced AI models for automated code revision.
+**WALL** is a web-based tool designed to help developers improve software quality by resolving code issues, revising them using Large Language Models (LLMs), and comparing code versions. This application integrates with SonarQube to fetch unresolved issues and uses advanced AI models for automated code revision.
 
 ## Prerequisites
 
