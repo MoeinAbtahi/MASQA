@@ -2,6 +2,26 @@
 
 **WALL** is a web-based tool designed to help developers improve software quality by resolving code issues, revising them using Large Language Models (LLMs), and comparing code versions. This application integrates with SonarQube to fetch unresolved issues and uses advanced AI models for automated code revision.
 
+## Project Structure
+```bash
+WALL/
+├── Code Issues Reviser Module - Processing All Files.py
+├── README.md
+├── app.py
+├── requirements.txt
+├── static
+│   ├── Code_Comparison.css
+│   ├── Code_Issue_Reviser.css
+│   ├── MASQA-Logo.png
+│   ├── MASQA-Logo2.png
+│   ├── index.css
+│   └── sonarqube.css
+└── templates
+    ├── Code_Comparison.html
+    ├── Code_Issue_Reviser.html
+    ├── index.html
+    └── sonarqube.html
+```
 ## Prerequisites
 
 Before using the application, install the required dependencies by running:
