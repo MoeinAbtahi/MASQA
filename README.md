@@ -1,6 +1,6 @@
 # MASQA: Enhancing Software Quality
 
-**MASQA** (Moein Abtahi Software Quality Application) is a web-based tool designed to help developers improve software quality by resolving code issues, revising them using Large Language Models (LLMs), and comparing code versions. This application integrates with SonarQube to fetch unresolved issues and uses advanced AI models for automated code revision.
+**MASQA** is a web-based tool designed to help developers improve software quality by resolving code issues, revising them using Large Language Models (LLMs), and comparing code versions. This application integrates with SonarQube to fetch unresolved issues and uses advanced AI models for automated code revision.
 
 ## Prerequisites
 
