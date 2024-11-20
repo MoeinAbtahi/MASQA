@@ -145,10 +145,6 @@ This route compares the original and revised versions of a file, calculating and
 2. **Issue Revision**: Once issues are retrieved, upload the CSV to the `/Code_Issue_Reviser` route to revise the issues using the LLM.
 3. **Code Comparison**: After revising the code, use the `/Code_Comparer` route to compare the original and revised code, and evaluate the changes.
 
-![Screenshot_19-11-2024_232935_127 0 0 1](https://github.com/user-attachments/assets/a67b8284-0c7d-48e1-adc0-7dcea8bca80e)
-![Screenshot_19-11-2024_232842_127 0 0 1](https://github.com/user-attachments/assets/5d92f319-4d49-4084-98bc-2c1a32658750)
-![Screenshot 2024-11-19 232727](https://github.com/user-attachments/assets/bba71550-e70a-40a9-9854-73d333955ef1)
-![Screenshot 2024-11-19 232715](https://github.com/user-attachments/assets/c748af90-e055-427f-9418-b6faa192bdcd)
 
 
 
