@@ -168,6 +168,7 @@ This route compares the original and revised versions of a file, calculating and
 
 ### **Home**
 - This page provides users with instructions on how to use MASQA, including descriptions of each action and step-by-step guidance for interacting with the tools.
+
 ![Home](https://github.com/user-attachments/assets/9ac304c6-c6ce-477f-8f68-dadfb9defe38)
 
 ---
@@ -182,6 +183,7 @@ This route compares the original and revised versions of a file, calculating and
    - **Project Key**: The unique identifier for the SonarQube project.
    - **Project Location**: Path to the original project files.
    - **Save Location**: Path to save the generated CSV file.
+
 ![Issue Extractor Tool](https://github.com/user-attachments/assets/6d387ff6-34ad-418f-a796-65cf41f1163a)
 
 #### **Output CSV Format**:
@@ -238,15 +240,22 @@ The extracted data is saved as a CSV file in the following format:
 
 3. Run the script to process and revise all files at once.
 
+4. **Prepare for Code Comparison**:
+   - To use the **Code Compare Tool**, ensure the following:
+     - The **original folder** and the **revised folder** must be in the same location.
+     - The revised folder name should have `.Revised` appended to the original folder name.
+     - Example paths:
+       - **Original Folder**: `D:\Documents\Project\WALL`
+       - **Revised Folder**: `D:\Documents\Project\WALL.Revised`
 ---
 
 ### Notes
 - For batch processing, ensure the script’s paths and model settings are correctly updated.
 - While Part 1 is interactive and user-driven, Part 2 offers automation for users needing quick processing of multiple files.
 
-
 ### Code Compare Tool
 
+in this section of WALL app, user needs to uplpoad the 
 
 
 
