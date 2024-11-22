@@ -238,9 +238,9 @@ The extracted data is saved as a CSV file in the following format:
        ```plaintext
        D:\Documents\Project\WALL\src\app\sample.py
        ```
-     - The revised file should be saved in:
+     - The revised file should be saved as ``` Revised.sample.py ``` in:
        ```plaintext
-       D:\Documents\Project\WALL.Revised\src\app\sample.py
+       D:\Documents\Project\WALL.Revised\src\app\Revised.sample.py
        ```
 
 8. **Proceed to Code Compare Tool** *(Optional)*:
