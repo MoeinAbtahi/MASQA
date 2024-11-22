@@ -312,25 +312,8 @@ The **Code Compare Tool** enables users to evaluate and compare the original and
      - **Code Difference Highlighting**: Displays changes made between the original and revised versions, such as additions, deletions, and modifications.
      - **Revision Coverage**: Shows the percentage of issues resolved in the revised file.
 
-5. **Manual Review Option**:
-   - Users can manually review the differences highlighted in the tool and determine the effectiveness of the revisions.
-
-6. **Prepare for Final Submission**:
+5. **Prepare for Final Submission**:
    - Based on the comparison and metrics, users can validate whether the revisions meet quality standards and proceed with finalizing the updated code.
-
----
-
-#### **Features**:
-
-- **Side-by-Side Comparison**:
-  - The **left panel** shows the original code with issues.
-  - The **right panel** shows the revised code, highlighting modifications.
-
-- **Dynamic Metrics**:
-  - Helps users understand how effective the revisions are and highlights unresolved issues.
-
-- **User Flexibility**:
-  - Works seamlessly whether users revised files via the **Code Issues Reviser** tool or manually.
 
 ---
 
