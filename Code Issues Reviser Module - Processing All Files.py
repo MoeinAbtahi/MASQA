@@ -124,11 +124,11 @@ def save_response_to_file(content, file_location):
     # Saves the AI-generated response to a file in a revised directory.
     global file_name
     # Define the source directory to remove from the file path (e.g., the location of your original project)
-    # Example: to_remove = r"D:\Documents\Project\MASQA"
+    # Example: to_remove = r"D:\Documents\Project\WALL"
     to_remove = r"Please enter your project location here"  # Replace with the path where your original project files are located
 
     # Define the destination directory where the revised files will be saved
-    # Example: to_add = r"C:\Documents\Project\MASQA.Revised"
+    # Example: to_add = r"C:\Documents\Project\WALL.Revised"
     to_add = r"Please specify the destination for the revised files here."  # Replace with the path where you want the revised files to be saved
 
 
