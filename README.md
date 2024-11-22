@@ -184,7 +184,7 @@ This route compares the original and revised versions of a file, calculating and
    - **Project Location**: Path to the original project files.
    - **Save Location**: Path to save the generated CSV file.
 
-![Issue Extractor Tool](https://github.com/user-attachments/assets/6d387ff6-34ad-418f-a796-65cf41f1163a)
+![Issue Extractor Tool](https://github.com/user-attachments/assets/217cca1e-697d-4f46-a40a-3cec97dc6b86)
 
 #### **Output CSV Format**:
 The extracted data is saved as a CSV file in the following format:
