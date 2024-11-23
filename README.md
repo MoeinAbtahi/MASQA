@@ -243,8 +243,14 @@ The extracted data is saved as a CSV file in the following format:
        ```plaintext
        D:\Documents\Project\WALL.Revised\src\app\Revised.sample.py
        ```
+8. **Set Up OpenAI API Key**:
+   - To enable the code revision feature, insert a valid OpenAI API key by modifying **Line 484** in the script:
+     ```python
+     openai.api_key = 'your-openai-api-key'  # Insert your OpenAI API key here
+     ```
+   - Replace `'your-openai-api-key'` with a valid key to avoid API errors.
 
-8. **Proceed to Code Compare Tool** *(Optional)*:
+9. **Proceed to Code Compare Tool** *(Optional)*:
    - After organizing the files, proceed to the **Code Compare Tool** section to compare the original and revised versions for further validation.
 
 
@@ -256,7 +262,14 @@ The extracted data is saved as a CSV file in the following format:
 - **Purpose**: Enables users to revise all files in the CSV at once using the `Code Issues Reviser Module - Processing All Files.py` script.
 
 #### **Setup**:
-1. Open the Python script and adjust the following lines:
+1. **Set Up OpenAI API Key**:
+   - To enable the code revision feature, insert a valid OpenAI API key by modifying **Line 8** in the script:
+     ```python
+         openai.api_key = 'your-openai-api-key'  # Insert your OpenAI API key here
+     ```
+   - Replace `'your-openai-api-key'` with a valid key to avoid API errors.
+
+2. Open the Python script and adjust the following lines:
    - **Line 128**: Replace the placeholder with the path to your **original project files**:
      ```python
      to_remove = r"Please enter your project location here"
@@ -265,16 +278,16 @@ The extracted data is saved as a CSV file in the following format:
      ```python
      to_add = r"Please specify the destination for the revised files here."
      ```
-2. **Select GPT Model**:
+3. **Select GPT Model**:
    - Change the model in **Line 154**:
      ```python
      model="gpt-3.5 Turbo"
      ```
    - For advanced capabilities, update this to another model listed on the OpenAI [Models Documentation](https://platform.openai.com/docs/models).
 
-3. Run the script to process and revise all files at once.
+4. Run the script to process and revise all files at once.
 
-4. **Prepare for Code Comparison**:
+5. **Prepare for Code Comparison**:
    - To use the **Code Compare Tool**, ensure the following:
      - The **original folder** and the **revised folder** must be in the same location.
      - The revised folder name should have `.Revised` appended to the original folder name.
