@@ -22,13 +22,34 @@ WALL/
     ├── index.html
     └── sonarqube.html
 ```
-## Prerequisites
+### **Prerequisites**
 
-Before using the application, install the required dependencies by running:
+Before using the application, ensure the following setup steps are completed:
 
-```bash
-pip install -r ./requirements.txt
-```
+1. **Install Python**:
+   - Make sure Python is installed on your machine. You can download the latest version of Python from [python.org](https://www.python.org/downloads/).
+
+2. **Install Required Dependencies**:
+   - Navigate to the project directory and run the following command to install the required libraries:
+     ```bash
+     pip install -r ./requirements.txt
+     ```
+   - This will install all necessary dependencies for the application as listed in the `requirements.txt` file.
+
+3. **Verify Python and Pip Installation**:
+   - Ensure both Python and Pip are correctly installed by running the following commands:
+     ```bash
+     python --version
+     pip --version
+     ```
+   - If these commands return the respective version numbers, the installation is complete.
+
+4. **Check OpenAI API Access**:
+   - Confirm that you have a valid OpenAI API key to enable the code revision functionality.
+
+5. **Optional Tools**:
+   - Install a code editor like VS Code or PyCharm for better script editing and management.
+
 ## Application Overview
 
 The application is designed to:
